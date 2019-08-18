@@ -391,8 +391,8 @@ var translationsAll = function() {
     zk = {
       "tourner gauche de %1 degrés": "turn @turnLeft %1 degrees",
       "tourner droite de %1 degrés": "turn @turnRight %1 degrees",
-      "quand le drapeau vert pressé": "ពេលចុច​ @greenFlag",
-      fin: "បិទ"
+      "quand le drapeau vert pressé": "when @greenFlag clicked",
+      fin: "end"
     },
     xk = "ភាសាខ្មែរ",
     jk = 100,
@@ -425,8 +425,8 @@ var translationsAll = function() {
     ng = e(Lk),
     zu = e(Lo);
   window.scratchblocks.loadLanguages({
-    fr: zu,
-    km: ng
+      ja: ng,
+      fr: zu
   });
   return {}
 }();
