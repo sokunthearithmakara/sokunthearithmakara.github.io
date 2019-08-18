@@ -373,26 +373,26 @@ var translationsAll = function() {
     },
     gk = {},
     kk = [],
-    fk = ["hauteur", "st\xE9r\xE9o gauche/droite"],
-    yk = ["autres scripts dans sprite"],
-    bk = ["d\xE9finir"],
+    fk = ["កម្រិតខ្ពស់ទាប", "កម្រិតឆ្វេងស្តាំ"],
+    yk = ["ស្រ្គីបផ្សេងទៀតក្នុងតួអង្គ"],
+    bk = ["កំណត់ន័យ"],
     wk = {
-      Motion: "Mouvement",
-      Looks: "Apparence",
-      Sound: "Son",
-      Events: "\xC9v\xE9nements",
-      Control: "Contr\xF4le",
-      Sensing: "Capteurs",
-      Operators: "Op\xE9rateurs",
-      Variables: "Variables",
-      "My Blocks": "Mes Blocs"
+      Motion: "ចលនា",
+      Looks: "រូបរាង",
+      Sound: "សម្លេង",
+      Events: "ព្រឹត្តិការណ៍",
+      Control: "គ្រប់គ្រង",
+      Sensing: "ញ្ញាណ",
+      Operators: "ប្រមាណវិធី",
+      Variables: "អថេរ",
+      "My Blocks": "ប្លុកខ្ញុំ"
     },
-    vk = ["abs", "plancher", "plafond", "racine", "sin", "cos", "tan", "asin", "acos", "atan", "ln", "log", "e^", "10^"],
+    vk = ["តម្លៃដាច់ខាត", "បង្គត់ចុះ", "បង្គត់ឡើង", "ឬសការ៉េ", "sin", "cos", "tan", "asin", "acos", "atan", "ln", "log", "e^", "10^"],
     zk = {
-      "tourner gauche de %1 degrés": "turn @turnLeft %1 degrees",
-      "tourner droite de %1 degrés": "turn @turnRight %1 degrees",
-      "quand le drapeau vert pressé": "when @greenFlag clicked",
-      fin: "end"
+      "បង្វិលឆ្វេង %1 ដឺក្រេ": "turn @turnLeft %1 degrees",
+      "បង្វិលស្តាំ %1 ដឺក្រេ": "turn @turnRight %1 degrees",
+      "ពេលចុចទង់": "when @greenFlag clicked",
+      បិទ: "end"
     },
     xk = "ភាសាខ្មែរ",
     jk = 100,
@@ -425,7 +425,7 @@ var translationsAll = function() {
     ng = e(Lk),
     zu = e(Lo);
   window.scratchblocks.loadLanguages({
-      ja: ng,
+      km: ng,
       fr: zu
   });
   return {}
