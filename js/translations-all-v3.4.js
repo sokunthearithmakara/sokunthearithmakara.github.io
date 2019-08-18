@@ -426,7 +426,7 @@ var translationsAll = function() {
     zu = e(Lo);
   window.scratchblocks.loadLanguages({
     fr: zu,
-    km: ng
+    th: ng
   });
   return {}
 }();
