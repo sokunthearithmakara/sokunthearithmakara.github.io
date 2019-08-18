@@ -13,7 +13,7 @@ var translationsAll = function() {
     return e && e["default"] || e
   }
   var mo = {
-      "move %1 steps": "avancer de %1 pas",
+      "move %1 steps": "ផ្លាស់ទីទៅមុខដោយ %1",
       "turn @turnRight %1 degrees": "tourner @turnRight de %1 degr\xE9s",
       "turn @turnLeft %1 degrees": "tourner @turnLeft de %1 degr\xE9s",
       "point in direction %1": "s'orienter en direction de %1",
