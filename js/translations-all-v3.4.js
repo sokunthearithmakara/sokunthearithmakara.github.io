@@ -241,8 +241,8 @@ var translationsAll = function() {
       "switch costume to %1" = "ប្តូររូបរាងទៅជា %1",
       "next costume" = "រូបរាងបន្ទាប់",
       "next backdrop" = "ផ្ទាំងខាងក្រោយបន្ទាប់",
-      "switch backdrop to %1" = "ប្ដូរផ្ទាំង​ខាងក្រោយ​ទៅជា %1",
-      "switch backdrop to %1 and wait" = "ប្ដូរផ្ទាំងខាង​ក្រោយ​ទៅជា %1 ហើយ​រងចាំ",
+      "switch backdrop to %1" = "ប្ដូរផ្ទាំងខាងក្រោយទៅជា %1",
+      "switch backdrop to %1 and wait" = "ប្ដូរផ្ទាំងខាងក្រោយទៅជា %1 ហើយរងចាំ",
       "change %1 effect by %2" = "ប្តូរបែបផែន %1 ចំនួន %2",
       "set %1 effect to %2" = "ដាក់បែបផែន %1 ត្រឹម %2",
       "clear graphic effects" = "លុបបែបផែនក្រាហ្វិក",
@@ -256,7 +256,7 @@ var translationsAll = function() {
       "stop all sounds" = "បញ្ឈប់សម្លេងទាំងអស់",
       "play drum %1 for %2 beats" = "លេងសូរ %1 ចំនួន %2 ប៊ីត",
       "rest for %1 beats" = "ផ្អាកចំនួន %1 ប៊ីត",
-      "play note %1 for %2 beats" = "លេងណូត %1 រយៈពេល​ %2 វិនាទី",
+      "play note %1 for %2 beats" = "លេងណូត %1 រយៈពេល %2 វិនាទី",
       "set instrument to %1" = "ដាក់ឧបករណ៍ទៅជា %1",
       "change volume by %1" = "ប្តូរកម្រិតសម្លេងចំនួន %1",
       "set volume to %1%" = "ដាក់កម្រិតសម្លេងត្រឹម %1%",
@@ -391,7 +391,7 @@ var translationsAll = function() {
     zk = {
       "tourner gauche de %1 degrés": "turn @turnLeft %1 degrees",
       "tourner droite de %1 degrés": "turn @turnRight %1 degrees",
-      "quand le drapeau vert pressé": "ពេលចុច​ @greenFlag",
+      "quand le drapeau vert pressé": "ពេលចុច @greenFlag",
       fin: "បិទ"
     },
     xk = "ភាសាខ្មែរ",
@@ -422,7 +422,7 @@ var translationsAll = function() {
         percentTranslated: jk
       }
     }),
-    ng = e(jk),
+    ng = e(Lk),
     zu = e(Lo);
   window.scratchblocks.loadLanguages({
     fr: zu,
