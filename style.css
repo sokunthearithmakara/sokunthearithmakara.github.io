@@ -16,14 +16,14 @@ body, .CodeMirror {
 
 
 #editor, #in-editor, #out-editor {
-  position: relative;
-  overflow: hidden;
-  margin: 1em 0;
-  border: 1px solid #bbb;
-  max-width: 40em;
-  height: 16em;
-
-  color: rgba(0, 0, 0, 0.9);
+position: relative;
+    overflow: hidden;
+    margin: 1em 0;
+    border: 1px solid #ced4da;
+    max-width: 40em;
+    height: 16em;
+    color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
 }
 #out-editor {
   width: 100%;
