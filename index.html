@@ -1,68 +1,90 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<meta name=viewport content="width=device-width, initial-scale=1">
-<title>scratchblocks homepage</title>
+<html lang="en">
 
-<meta name=description content="Use scratchblocks to write pictures of Scratch scripts in forum posts.">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Battambang:400,700|Roboto:400,500&display=swap" rel="stylesheet">
-<link rel=stylesheet href="/lib/codemirror-custom.css">
-<link rel=stylesheet href="/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- <link rel=stylesheet href="https://sokunthearithmakara.github.io/lib/codemirror-custom.css">
+  <link rel=stylesheet href="https://sokunthearithmakara.github.io/style.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Battambang:400,700|Roboto:400,500&display=swap" rel="stylesheet">
 
-<!---------------------------------------------------------------------------->
+</head>
+
+<body>
+  <div class="container">
+
+    <!---------------------------------------------------------------------------->
+    <div class="row mb-3 pb-3 pt-3" style="background: #fafafa">
+    <div class="col-sm-12 col-md-6">
+      <h1 class="d-inline-block"><a href="/">scratchblocks</a></h1>
+      <span class=author>v3.4</span>
+      <div class="d-block"><small><ruby>created by<rt>បង្កើតដោយ</rt></ruby><a href="//tjvr.org"> blob8108</a> & <ruby>modified by
+        <rt>កែប្រែដោយ</rt></ruby> tmakara</small></div>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <div class="d-inline-block mt-3 mr-3">
+          <a href="/translator/" id="translate-link"><ruby>
+                  <b>HELP</b>
+                  <rt>ជំនួយ</rt>
+              </ruby></a>
+      </div>
+      <div class="d-inline-block mt-3 mr-3">
+          <a href="/translator/" id="translate-link"><ruby>
+                  <b>TRANSLATE</b>
+                  <rt>បកប្រែ</rt>
+              </ruby></a>
+      </div>
+    </div>
+
+</div>
 
 
-  <div id=title>
-    <h1><a href="/">scratchblocks</a></h1>
-    <p class=author>v3.4 • <ruby> created by<rt>បង្កើតដោយ</rt></ruby><a href="//tjvr.org">blob8108</a><ruby> modified by<rt>បានកែប្រែដោយ</rt></ruby> tmakara</p>
-  </div>
-  <span>
-    <a href="/translator/" id="translate-link"><ruby>
- <b>translate</b><rt>បកប្រែ</rt>
-</ruby></a>
-  </span>
 
-<div id="side">
-<div>
-<!--   <select id="choose-style">
-    <option value="scratch2">Scratch 2.0
-    <option value="scratch3" selected>Scratch 3.0
-  </select> -->
-<!-- 
-  <select id="choose-lang">
-    <option value="">Choose a language
-  </select> -->
-
-  <small id=lang-status></small>
 <div class="row">
-          <div class="col-md-5 mb-3">
-            <label for="choose-style"><ruby>
- Style<rt>ម៉ូត</rt>
-</ruby></label>
-            <select class="custom-select d-block w-100" id="choose-style">
-              <option value="scratch2">Scratch 2.0</option>
-              <option value="scratch3" selected>Scratch 3.0</option>
-            </select>
-          </div>
-          <div class="col-md-5 mb-3">
-            <label for="choose-lang"><ruby>
- Language<rt>ភាសា</rt>
-</ruby></label>
-            <select class="custom-select d-block w-100" id="choose-lang">
-              <option value="">Choose a language
-            </select>
-          </div>
+<div class="col-md-6 col-sm-12 order-1" id="side">
+    <div>
+
+
+      <small id=lang-status></small>
+      <div class="row">
+        <div class="col-md-5 mb-3">
+          <label for="choose-style"><small><ruby>
+                        Style<rt>ម៉ូត</rt>
+                    </ruby></small></label>
+          <select class="custom-select d-block w-100" id="choose-style">
+                    <option value="scratch2">Scratch 2.0</option>
+                    <option value="scratch3" selected>Scratch 3.0</option>
+                </select>
         </div>
-</div>
+        <div class="col-md-5 mb-3">
+          <label for="choose-lang"><small><ruby>
+                        Language<rt>ភាសា</rt>
+                    </ruby></small></label>
+          <select class="custom-select d-block w-100" id="choose-lang">
+                    <option value="">Choose a language
+                </select>
+        </div>
+      </div>
+    </div>
 
-<div id="editor"></div>
-</div>
-
-<pre id="preview" class="blocks"></pre>
-
-<a id="export-svg" class="btn btn-primary export-link" download="scratchblocks.svg">Export SVG</a>
-<a id="export-png" class="btn btn-primary export-link" download="scratchblocks.png">Export PNG</a>
-
+    <div id="editor"></div>
+  </div>
+<div class="col-md-6 col-sm-12 order-12">
+  <pre id="preview" class="blocks"></pre>
+  <a id="export-svg" class="text-light btn btn-primary export-link" download="scratchblocks.svg"><ruby>
+          <b>Export</b>
+          <rt>នាំចេញ</rt>
+      </ruby> SVG</a>
+  <a id="export-png" class="text-light btn btn-primary export-link" download="scratchblocks.png"><ruby>
+          <b>Export</b>
+          <rt>នាំចេញ</rt>
+      </ruby> PNG</a>
+  </div>
+  </div>
+  </div>
 <!---------------------------------------------------------------------------->
 
 <script src="/js/scratchblocks-v3.4-min.js"></script>
