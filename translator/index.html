@@ -1,42 +1,80 @@
+    
 <!DOCTYPE html>
-<meta charset="utf8">
-<meta name=viewport content="width=device-width, initial-scale=1">
-<title>scratchblocks homepage</title>
+<html lang="en">
 
-<meta name=description content="Use scratchblocks to write pictures of Scratch scripts in forum posts.">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ScratchBlocks</title>
+  <link rel=stylesheet href="/lib/codemirror-custom.css">
+  <link rel=stylesheet href="/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Battambang:400,700|Roboto:400,500&display=swap" rel="stylesheet">
 
-<link rel=stylesheet href="//fonts.googleapis.com/css?family=Noto+Sans:400,700">
-<link rel=stylesheet href="/lib/codemirror-custom.css">
-<link rel=stylesheet href="/style.css">
+</head>
 
-<!---------------------------------------------------------------------------->
+<body>
+  <div class="container">
 
-<h1>
-  <a href="/" class=link id=home-link>scratchblocks</a> translator
-  <span>
-    <a id="swap-btn">swap ↔</a>
-    <a id="home-link-2">done ↑</a>
-  </span>
-</h1>
+    <!---------------------------------------------------------------------------->
+    <div class="row mb-3 pb-3 pt-3" style="background: #fafafa">
+    <div class="col-sm-12 col-md-6">
+      <h1 class="d-inline-block"><a href="/">scratchblocks</a></h1>
+      <span class=author>v3.4</span>
+      <div class="d-block"><small><ruby>created by<rt>បង្កើតដោយ</rt></ruby><a href="//tjvr.org"> blob8108</a> & <ruby>modified by
+        <rt>កែប្រែដោយ</rt></ruby> tmakara</small></div>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <div class="d-inline-block mt-3 mr-3">
+          <a target="_blank" href="http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax"><ruby>
+                  <b>HELP</b>
+                  <rt>ជំនួយ</rt>
+              </ruby></a>
+      </div>
+      <div class="d-inline-block mt-3 mr-3">
+          <a href="/translator/" id="translate-link"><ruby>
+                  <b>TRANSLATE</b>
+                  <rt>បកប្រែ</rt>
+              </ruby></a>
+      </div>
+    </div>
 
-<div id=left>
-  <div id="in-editor"></div>
-  <div id="in-preview"></div>
 </div>
 
-<div id="side" class=right>
-<div>
-  <select id="choose-lang">
-    <option value="">Select language…
-  </select>
 
-  <small id=lang-status></small>
 
-</div>
-
+<div class="row">
+<div class="col-md-6 col-sm-12 order-12" id="side">
+<div class="col-md-5 mb-3">
+          <label for="choose-lang"><small><ruby>Language<rt>ភាសា</rt></ruby></small></label>
+          <select class="custom-select d-block w-100" id="choose-lang">
+                    <option value="">Choose a language
+                </select>
+        </div>
 <textarea id="out-editor" placeholder="Select a language" readonly></textarea>
 <pre id="out-preview"></pre>
 </div>
+  </div>
+<div class="col-md-6 col-sm-12 order-1">
+  <div class="export-buttons mb-5">
+  <a id="swap-btn" class="text-light btn btn-primary"><ruby>
+          <b>SWAP ↔</b>
+          <rt>ត្រឡប់</rt>
+      </ruby></a>
+  <a id="home-link-2" class="text-light btn btn-primary"><ruby>
+          <b>done ↑</b>
+          <rt>រួចរាល់</rt>
+      </ruby></a>
+  </div>
+  <div id=left>
+  <div id="in-editor"></div>
+  <div id="in-preview"></div>
+</div>
+  </div>
+  </div>
+  </div>
+<!---------------------------------------------------------------------------->
 
 <!---------------------------------------------------------------------------->
 
