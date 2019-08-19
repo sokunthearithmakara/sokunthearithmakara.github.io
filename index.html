@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel=stylesheet href="https://sokunthearithmakara.github.io/lib/codemirror-custom.css">
-  <link rel=stylesheet href="https://sokunthearithmakara.github.io/style.css">
+  <title>ScratchBlocks</title>
+  <link rel=stylesheet href="/lib/codemirror-custom.css">
+  <link rel=stylesheet href="/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Battambang:400,700|Roboto:400,500&display=swap" rel="stylesheet">
 
@@ -46,23 +46,17 @@
 <div class="row">
 <div class="col-md-6 col-sm-12 order-1" id="side">
     <div>
-
-
       <small id=lang-status></small>
       <div class="row">
         <div class="col-md-5 mb-3">
-          <label for="choose-style"><small><ruby>
-                        Style<rt>ម៉ូត</rt>
-                    </ruby></small></label>
+          <label for="choose-style"><small><ruby>Style<rt>ម៉ូត</rt></ruby></small></label>
           <select class="custom-select d-block w-100" id="choose-style">
                     <option value="scratch2">Scratch 2.0</option>
                     <option value="scratch3" selected>Scratch 3.0</option>
                 </select>
         </div>
         <div class="col-md-5 mb-3">
-          <label for="choose-lang"><small><ruby>
-                        Language<rt>ភាសា</rt>
-                    </ruby></small></label>
+          <label for="choose-lang"><small><ruby>Language<rt>ភាសា</rt></ruby></small></label>
           <select class="custom-select d-block w-100" id="choose-lang">
                     <option value="">Choose a language
                 </select>
@@ -73,7 +67,7 @@
     <div id="editor"></div>
   </div>
 <div class="col-md-6 col-sm-12 order-12">
-  <pre id="preview" class="blocks"></pre>
+  <div class="export-buttons">
   <a id="export-svg" class="text-light btn btn-primary export-link" download="scratchblocks.svg"><ruby>
           <b>Export</b>
           <rt>នាំចេញ</rt>
@@ -82,6 +76,8 @@
           <b>Export</b>
           <rt>នាំចេញ</rt>
       </ruby> PNG</a>
+  </div>
+  <pre id="preview" class="blocks"></pre>
   </div>
   </div>
   </div>
