@@ -14,7 +14,7 @@
 <h1>
   <div id=title>
     <a href="/">scratchblocks</a>
-    <span class=author>v3.4 • by <a href="//tjvr.org">blob8108</a> modified by Sokunthearith</span>
+    <div class=author>v3.4 • by <a href="//tjvr.org">blob8108</a> modified by Sokunthearith</div>
   </div>
   <span>
     <a href="/translator/" id="translate-link"><ruby>
@@ -25,13 +25,13 @@
 
 <div id="side">
 <div>
-  <select type="hidden" id="choose-style">
+  <select id="choose-style">
     <option value="scratch2">Scratch 2.0
     <option value="scratch3" selected>Scratch 3.0
   </select>
 
   <select id="choose-lang">
-    <option value="">English
+    <option value="">Choose a language
   </select>
 
   <small id=lang-status></small>
@@ -43,8 +43,8 @@
 
 <pre id="preview" class="blocks"></pre>
 
-<a id="export-svg" class="export-link" download="scratchblocks.svg">Export SVG</a>
-<a id="export-png" class="export-link" download="scratchblocks.png">Export PNG</a>
+<a id="export-svg" class="btn btn-primary export-link" download="scratchblocks.svg">Export SVG</a>
+<a id="export-png" class="btn btn-primary export-link" download="scratchblocks.png">Export PNG</a>
 
 <!---------------------------------------------------------------------------->
 
