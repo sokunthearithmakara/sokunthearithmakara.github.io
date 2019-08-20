@@ -52,14 +52,12 @@
 </div>
 
 <div id="side" class=right>
-<div>
-  <select id="choose-lang">
-    <option value="">Select language…
-  </select>
-
-  <small id=lang-status></small>
-
-</div>
+    <div class="col-md-5 mb-3">
+          <label for="choose-lang"><small><ruby>Language<rt>ភាសា</rt></ruby></small></label>
+          <select class="custom-select d-block w-100" id="choose-lang">
+                    <option value="">Choose a language
+                </select>
+        </div>
 
 <textarea id="out-editor" placeholder="Select a language" readonly></textarea>
 <pre id="out-preview"></pre>
