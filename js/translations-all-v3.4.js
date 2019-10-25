@@ -14,7 +14,7 @@ var translationsAll = function() {
   }
   var mo = {
       "move %1 steps": "avancer de %1 pas",
-      "turn @turnRight %1 degrees": "បង្វិល @turnRight %1 ដឺក្រេ",
+      "turn @turnRight %1 degrees": "tourner @turnRight de %1 degr\xE9s",
       "turn @turnLeft %1 degrees": "tourner @turnLeft de %1 degr\xE9s",
       "point in direction %1": "s'orienter en direction de %1",
       "point towards %1": "s'orienter vers %1",
