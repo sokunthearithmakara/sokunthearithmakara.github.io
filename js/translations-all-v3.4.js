@@ -11088,7 +11088,7 @@ var translationsAll = function () {
     "fisheye": "ភ្នែកត្រី",
     "ghost": "ខ្មោច",
     "hour": "ម៉ោង",
-    "left arrow": "ព្រួញខាងឆ្វេង",
+    "ព្រួញខាងឆ្វេង": "left arrow",
     "left-right": "ព្រួញខាងស្ដាំ",
     "light": "អំពូលភ្លើង",
     "minute": "នាទី",
@@ -11131,7 +11131,7 @@ var translationsAll = function () {
             "បង្វិលឆ្វេង %1 ដឺក្រេ": "turn @turnLeft %1 degrees",
             "បង្វិលស្តាំ %1 ដឺក្រេ": "turn @turnRight %1 degrees",
             "ពេលចុចទង់": "when @greenFlag clicked",
-            បិទ: "end"
+            "បិទ": "end"
         },
         xkh = "ភាសាខ្មែរ",
         jkh = 100,
